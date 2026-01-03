@@ -1,0 +1,269 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "HZ TSB",
+    LoadingTitle = "作者:HZOS",
+    LoadingSubtitle = "HZ TSB",
+    ConfigurationSaving = {
+        Enabled = false,
+    },
+})
+
+local Tab1 = Window:CreateTab("琦玉")
+local Tab2 = Window:CreateTab("饿狼")
+local Tab3 = Window:CreateTab("杰诺斯")
+local Tab4 = Window:CreateTab("索尼克")
+local Tab5 = Window:CreateTab("棒球")
+local Tab6 = Window:CreateTab("原子")
+local Tab7 = Window:CreateTab("龙卷")
+local Tab8 = Window:CreateTab("水龙")
+local Tab9 = Window:CreateTab("其它")
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "秤金次",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/R9YJF35g/raw"))();
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "gojo1",
+    Callback = function()
+loadstring(game:HttpGet("https://arch-http.vercel.app/files/Gojo M1 VFX & SFX by MIYKO"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "gojo2",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Doumaix/qqwrxxxx/main/gojo_v2.4.lua"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "chara(忍者注入器不让用)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "卡兹",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialAposty/RBLX-Scripts/refs/heads/main/UltimateLifeForm.lua"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "黑暗马克",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/BtDQqi2c/raw"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "shinji",
+    Callback = function()
+getgenv().speedtools = false --- use this tool if you want to run
+getgenv().speedpunch= true ---tp and normal Punch (have a bug)
+getgenv().dance= false ---song made by rebzyyx all I want is you 
+getgenv().night= false -- idk night?
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Shinji%20tp%20exploit'))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "火影忍者",
+    Callback = function()
+getgenv().Cutscene = False -- //𝖲𝖤𝖳 𝖨𝖳 "𝖥𝖠𝖫𝖲𝖤" 𝖨𝖥 𝖴 𝖣𝖮𝖭'𝖳 𝖶𝖠𝖭𝖳 𝖢𝖴𝖳𝖲𝖢𝖤𝖭𝖤 𝖠𝖭𝖣 𝖨𝖥 𝖴 𝖶𝖠𝖭𝖳 "𝖳𝖱𝖴𝖤" 𝖨𝖳\
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/BoombasticLol.lua.txt"))()
+    end,
+})
+
+local ButtonExample = Tab1:CreateButton({
+    Name = "未知名",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "火车头",
+    Callback = function()
+getgenv().settings = {
+    ["morph"] = {
+        ["enabled"] = false,
+        ["dontchangeskincolor"] = false,
+    },
+    ["ult_forcewalkspeed"] = true, -- forces walkspeed even if set to 0
+    ["ult_walkspeed"] = 64, -- how fast you walk in ult
+    ["tp_duration"] = 0.15 -- how long it takes to tp
+} 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ATrainSounds/refs/heads/main/ATrain.lua"))()
+    end,
+})
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "虚空杀",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/afHQ7oyj/raw"))()
+    end,
+})
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "gojo？",
+    Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-hunter-moveset-into-OP-goku-moveset-17468"))()
+    end,
+})
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "电锯人",
+    Callback = function()
+ --/ run speed \\--
+getgenv().RunSpeed = 100
+ 
+--/ jump power while running \\--
+getgenv().RunJump = 100
+ 
+--/ instant kill (first and second skill) \\--
+getgenv().InstaKill = true
+ 
+--/ chance to revive after dying (100% in this case) \\--
+getgenv().RevivePercent = 100
+ 
+--// walk anim \\\--
+getgenv().ChangeWalk = true
+ 
+--/ idle anim \\--
+getgenv().ChangeIdle = true
+ 
+--/ night time \\--
+getgenv().Night = false
+ 
+--/ side dash no cooldown \\--
+getgenv().DashNoCooldown = true
+ 
+--/ extra skills \\--
+getgenv().ExtraSkills = true
+ 
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/CHAINSAW%20MAN/Chainsaw%20Man%20(Obfuscated).txt"))()
+    end,
+})
+
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "夜神月(忍者不让用)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/AyoFs"))()
+    end,
+})
+
+local ButtonExample = Tab2:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab3:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab4:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+
+local ButtonExample = Tab5:CreateButton({
+    Name = "死神V2",
+    Callback = function()
+getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+    end,
+})
+
+local ButtonExample = Tab5:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab6:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab7:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab8:CreateButton({
+    Name = "未知名(全角色都有)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+	Name = "复制群",
+	Callback = function ()
+	 setclipboard("600298540")
+	 OrionLib:MakeNotification({
+                    Name = "信息",
+                    Content = "复制请在粘贴板中查看",
+                    Time = 2
+                })
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "付费动作",
+    Callback = function()
+loadstring(game:HttpGet("https://arch-http.vercel.app/files/LIMITED EMOTE HUB (75-100) BY MIYKO"))()
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "绕后脚本",
+    Callback = function()
+loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/94a29c6b88bfe8c49ea221eaa9225398790c1b7436b0f08caf7517c3002e8782.lua"))()
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "饿狼二技能脚本",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/InstantLethalRevamp/refs/heads/main/Protected_6977817281150270.lua"))()
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "格挡脚本",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/CombatGUI/refs/heads/main/TSBCombatGUI"))()
+-- happy independence from notpaki and cyborga!
+    end,
+})
