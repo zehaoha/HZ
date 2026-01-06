@@ -184,6 +184,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/ref
     end,
 })
 
+local ButtonExample = Tab4:CreateButton({
+    Name = "Sion",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-SION-ELTNAM-ATLASIA-61168"))()
+    end,
+})
 
 local ButtonExample = Tab5:CreateButton({
     Name = "死神V2",
@@ -265,5 +271,19 @@ local ButtonExample = Tab9:CreateButton({
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/CombatGUI/refs/heads/main/TSBCombatGUI"))()
 -- happy independence from notpaki and cyborga!
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "上挑冲刺脚本",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/OreoTech/refs/heads/main/Protected_6856895483929371.lua"))()
+    end,
+})
+
+local ButtonExample = Tab9:CreateButton({
+    Name = "垃圾桶脚本",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man",trye))()
     end,
 })
